@@ -1,0 +1,3 @@
+De modo que un texto viene a ser una cantidad de enunciados hilados entre sí y ordenados en base a un argumento
+(explicativo, narrativo, descriptivo, etc.), empleando para ello un sistema concreto de signos, que llamaremos lenguaje,
+y dentro de dicho sistema un código concreto que llamaremos lengua.

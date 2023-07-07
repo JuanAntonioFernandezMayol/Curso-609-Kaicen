@@ -1,0 +1,7 @@
+Barcelona Gerona Lerida Tarragona Zaragoza Teruel
+Barcelona 0 100 156 98 296 409
+Gerona 100 0 256 198 396 509
+Lerida 156 256 0 91 140 319
+Tarragona 98 198 91 0 231 311
+Zaragoza 296 396 140 231 0 181
+Teruel 409 509 319 311 181 0

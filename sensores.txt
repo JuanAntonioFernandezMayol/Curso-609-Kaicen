@@ -1,0 +1,4 @@
+1 1 Menorca 15.3
+2 3 Paseo_Castellana 22.7
+3 2 Av_Diagonal 19.6
+4 1 Avenidas 21.4

@@ -1,0 +1,36 @@
+Máquina Virtual:
+Una máquina virtual es una instancia completa y aislada de un sistema operativo, que se ejecuta sobre una capa de virtualización en un servidor físico.
+Cada máquina virtual tiene su propio sistema operativo, lo que significa que puede ejecutar diferentes sistemas operativos simultáneamente en el mismo servidor físico.
+Cada máquina virtual consume recursos (como CPU, memoria y almacenamiento) y requiere su propio sistema operativo completo, lo que puede resultar en un uso más intensivo de recursos en comparación con los contenedores.
+Las máquinas virtuales ofrecen un alto nivel de aislamiento y seguridad, ya que están completamente aisladas unas de otras y del sistema operativo anfitrión.
+El tiempo de inicio de una máquina virtual es generalmente más lento debido a la necesidad de iniciar todo el sistema operativo.
+
+Contenedor:
+Un contenedor es una instancia ligera y aislada de una aplicación junto con todas sus dependencias, que se ejecuta sobre un sistema operativo compartido.
+Los contenedores comparten el mismo núcleo del sistema operativo subyacente, lo que significa que no requieren múltiples sistemas operativos completos y consumen menos recursos en comparación con las máquinas virtuales.
+Los contenedores se basan en la tecnología de virtualización a nivel de sistema operativo, como Docker o Kubernetes.
+Los contenedores son más rápidos de iniciar y detener en comparación con las máquinas virtuales, ya que no necesitan iniciar todo un sistema operativo.
+Los contenedores ofrecen un nivel de aislamiento entre aplicaciones, pero no proporcionan el mismo nivel de aislamiento y seguridad que las máquinas virtuales.
+
+Una API:
+Una API (Application Programming Interface) es un conjunto de reglas y protocolos que permite que diferentes aplicaciones o sistemas se comuniquen y compartan datos entre si.
+una API es una forma estandarizada y estructurada de permitir que las aplicaciones se comuniquen y compartan información entre sí de manera eficiente y segura.
+
+S3:
+El formato S3 (Simple Storage Service) se refiere a un servicio de almacenamiento en la nube proporcionado por Amazon Web Services (AWS). Aunque S3 no es un formato de archivo propiamente dicho, sino un servicio de almacenamiento, tiene varias ventajas que lo hacen ampliamente utilizado:
+Escalabilidad, durabilidad, seguridad, acceso desde cualquier lugar, integracion a otros servicios aws, costes eficientes.
+
+Explicacion del codigo en C:
+printStrings, se utiliza para imprimir un array de cadenas de caracteres, el nombre de la funcion es printStrings, char *arr[]: Es el primer parametro de la funcion y es un array de punteros a caracteres y arr[] indica que el tamaño del array puede variar, int size: es el segundo parametro de la funcion y nos da el tamaño del array.
+Dentro de la funcion se usa un bucle para recorrer cada elemento del array de cadenas de caracteres, la variable i se usa como contador y empieza en 0 y va aumentando una cada vez hasta llegar a 3.
+Despues usa printf se usa para imprimir cada cadena de caracteres del array con formato %s  para imprimirlo en cadena de caracteres | una tuberia y luego la variable que se usa para acceder a la cadena de caracteres
+El otro printf se usa para imprimir una nueva linea.
+
+Explicacion del codigo C 2:
+el argc es un entero que nos indica el numero de argumentos y el argv es un array de punteros a caracteres
+Aqui comprobamos si el los argumentos son menor que 3 y si fuera menor que 3 haria el exit(1) y nos indicaria que hay algun error porque a salido del programa
+el printf nos indica que el numero de argumentos es menor que 3 se imprime un mensaje de como deberia ejecutarse el programa, porque el programa espera que se le pasen tres cadenas de caracteres despues del nombre del ./program
+el printStrings se encarga de imprimir las cadenas de caracteres pasadas al programa
+el argv es para pasarle el array de argumentos y el tamaño del array argc-1 que sera el numero de argumentos -1
+
+
